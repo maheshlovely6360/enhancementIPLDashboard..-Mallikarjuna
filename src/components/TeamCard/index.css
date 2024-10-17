@@ -1,60 +1,36 @@
-/* Write your CSS here */
-.link-item {
-  text-decoration: none;
-  width: 45%;
-}
-.team-card {
+.list-item {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  justify-content: space-between;
   align-items: center;
+  height: 180px;
+  width: 40%;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
   background-color: #ffffff33;
-  border: 1px solid #ffffff;
-  border-radius: 10px;
-  padding: 5px 10px 5px 10px;
   margin-right: 20px;
   margin-bottom: 20px;
-  cursor: pointer;
-  min-height: 100px;
-}
-@media screen and (min-width: 768px) {
-  .team-card {
-    padding: 20px 30px 20px 30px;
-    min-height: 150px;
-  }
+  padding: 12px;
 }
 
-@media screen and (max-width: 500px) {
-  .team-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 150px;
-  }
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.team-card-image {
-  width: 50px;
-  height: 50px;
+
+.image-url {
+  width: auto;
+  height: 80px;
 }
-@media screen and (min-width: 768px) {
-  .team-card-image {
-    width: 80px;
-    height: 80px;
-  }
-}
-.team-card-name {
-  font-size: 15px;
-  font-weight: 500;
-  font-family: 'Bree Serif';
-  color: #ffffff;
-  margin-left: 10px;
+
+.card-heading {
+  color: white;
+  font-size: 20px;
   text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .team-card-name {
-    font-size: 25px;
-    margin-left: 30px;
-  }
 }
